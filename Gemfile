@@ -9,12 +9,23 @@ gem 'pg', '0.15.1'
 group :development, :test do
 #commentedout5/15gem 'sqlite3', '1.3.8'
 gem 'rspec-rails', '2.13.1'
+gem 'guard-rspec', '2.5.0'
 end
 
 group :test do
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.1.0'
-end
+  
+  gem "growl", :git => "https://github.com/visionmedia/growl.git"
+  gem 'rb-fsevent'
+
+  gem 'spork-rails', '4.0.0'
+  gem 'guard-spork', '1.5.0'
+  gem 'childprocess', '0.3.6'
+
+  end
+
+  gem 'growl_notify'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '4.0.1'
