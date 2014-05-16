@@ -204,7 +204,6 @@ DEPENDENCIES
   pg (= 0.15.1)
   rails (= 4.0.5)
   rails_12factor (= 0.0.2)
-  rb-appscript (= 0.6.1)
   rb-fsevent
   rspec-rails (= 2.13.1)
   sass-rails (= 4.0.1)
