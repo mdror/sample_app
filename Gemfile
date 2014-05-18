@@ -4,11 +4,11 @@ ruby '2.0.0'
 #ruby-gemset=railstutorial_rails_4_0
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.5'
-
+gem 'pg', '0.15.1'
 
 group :development, :test do
 
-gem 'pg', '0.15.1'
+#gem 'pg', '0.15.1'
 gem 'rspec-rails', '2.13.1'
 gem 'guard-rspec', '2.5.0'
 end
@@ -57,7 +57,7 @@ end
 
 group :production do
   #commentedout5/15gem 'pg', '0.15.1'
-  gem 'pg', '0.15.1'
+  #gem 'pg', '0.15.1'
   
   gem 'rails_12factor', '0.0.2'
 end
