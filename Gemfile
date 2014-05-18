@@ -11,6 +11,8 @@ group :development, :test do
 #gem 'pg', '0.15.1'
 gem 'rspec-rails', '2.13.1'
 gem 'guard-rspec', '2.5.0'
+gem 'ruby_gntp'
+
 end
 
 group :test do
