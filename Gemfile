@@ -26,7 +26,7 @@ group :test do
 
   end
 
-  gem 'growl_notify'
+  #gem 'growl_notify'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '4.0.1'
