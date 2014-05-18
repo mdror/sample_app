@@ -5,7 +5,7 @@ ruby '2.0.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.5'
 gem 'pg', '0.15.1'
-
+gem 'growl_notify'
 group :development, :test do
 
 #gem 'pg', '0.15.1'
@@ -23,8 +23,8 @@ group :test do
   gem 'spork-rails', '4.0.0'
   gem 'guard-spork', '1.5.0'
   gem 'childprocess', '0.3.6'
-  gem 'growl_notify'
-  end
+  
+end
 
   #
 
