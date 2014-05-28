@@ -14,7 +14,7 @@ group :development, :test do
 gem 'rspec-rails', '2.13.1'
 gem 'guard-rspec', '2.5.0'
 gem 'ruby_gntp'
-#gem "better_errors"
+gem "growl_notify"
 end
 
 group :test do
