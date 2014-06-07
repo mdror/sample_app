@@ -20,7 +20,8 @@ describe "Static pages" do
     click_link "Sign up now!"
     expect(page).to have_title(full_title('Sign up'))
     click_link "sample app"
-    expect(page).to have_title(full_title('Sign up'))
+    page.should have_selector 'h1', text: 'Welcome to the Sample App'
+    
     
   
   end
