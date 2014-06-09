@@ -8,6 +8,9 @@ gem 'pg', '0.15.1'
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'sprockets', '2.11.0'
 gem 'bcrypt-ruby', '3.1.2'
+gem 'faker', '1.1.2'
+gem 'will_paginate', '3.0.4'
+gem 'bootstrap-will_paginate', '0.0.9'
 
 group :development, :test do
 
@@ -15,7 +18,7 @@ group :development, :test do
 gem 'rspec-rails', '2.13.1'
 gem 'guard-rspec', '2.5.0'
 gem 'ruby_gntp'
-gem "growl_notify"
+#gem "growl_notify"
 end
 
 group :test do
@@ -29,7 +32,7 @@ group :test do
   gem 'guard-spork', '1.5.0'
   gem 'childprocess', '0.3.6'
   gem 'growl_notify'
-   gem 'factory_girl_rails', '4.2.1'
+  gem 'factory_girl_rails', '4.2.1'
 
 end
 
